@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2B9CB220AEDE1100E7D11B /* TotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B9CB120AEDE1100E7D11B /* TotsViewController.swift */; };
+		8B2B9CB420AEE7F100E7D11B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B9CB320AEE7F100E7D11B /* SignUpViewController.swift */; };
+		8B3336F820AF10620089CB60 /* TotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3336F720AF10620089CB60 /* TotTableViewCell.swift */; };
+		8B3336FC20AF1DE10089CB60 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3336FB20AF1DE10089CB60 /* Message.swift */; };
+		8B3336FE20AF1E840089CB60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3336FD20AF1E840089CB60 /* User.swift */; };
+		8B33370020AF20EC0089CB60 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3336FF20AF20EC0089CB60 /* Header.swift */; };
 		8B6CEAFA20AD701100038231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CEAF920AD701100038231 /* AppDelegate.swift */; };
 		8B6CEAFC20AD701100038231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CEAFB20AD701100038231 /* ViewController.swift */; };
 		8B6CEAFF20AD701100038231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CEAFD20AD701100038231 /* Main.storyboard */; };
 		8B6CEB0120AD701100038231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CEB0020AD701100038231 /* Assets.xcassets */; };
 		8B6CEB0420AD701100038231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CEB0220AD701100038231 /* LaunchScreen.storyboard */; };
+		8B816F5520C5D47200ABA741 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B816F5420C5D47200ABA741 /* ProfileViewController.swift */; };
+		8B816F5720C5E98D00ABA741 /* SendTotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B816F5620C5E98D00ABA741 /* SendTotViewController.swift */; };
+		CD169C1C57900627D1FE2C69 /* Pods_TotterIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CF37C2703B60F3BBE00513 /* Pods_TotterIos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382256AF5AC50CF32EFBDD8F /* Pods-TotterIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotterIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-TotterIos/Pods-TotterIos.release.xcconfig"; sourceTree = "<group>"; };
+		8B2B9CB120AEDE1100E7D11B /* TotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotsViewController.swift; sourceTree = "<group>"; };
+		8B2B9CB320AEE7F100E7D11B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8B3336F720AF10620089CB60 /* TotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotTableViewCell.swift; sourceTree = "<group>"; };
+		8B3336FB20AF1DE10089CB60 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8B3336FD20AF1E840089CB60 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8B3336FF20AF20EC0089CB60 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		8B6CEAF620AD701100038231 /* TotterIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotterIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6CEAF920AD701100038231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B6CEAFB20AD701100038231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,10 @@
 		8B6CEB0020AD701100038231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B6CEB0320AD701100038231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6CEB0520AD701100038231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B816F5420C5D47200ABA741 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8B816F5620C5E98D00ABA741 /* SendTotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTotViewController.swift; sourceTree = "<group>"; };
+		D5CF37C2703B60F3BBE00513 /* Pods_TotterIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotterIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FDFB1978AB0F6BF504E182 /* Pods-TotterIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotterIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TotterIos/Pods-TotterIos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD169C1C57900627D1FE2C69 /* Pods_TotterIos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A59C433129F3A9762702D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF37C2703B60F3BBE00513 /* Pods_TotterIos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B6CEAED20AD701100038231 = {
 			isa = PBXGroup;
 			children = (
 				8B6CEAF820AD701100038231 /* TotterIos */,
 				8B6CEAF720AD701100038231 /* Products */,
+				D66A36357E0D9D5B76EB25CA /* Pods */,
+				4A59C433129F3A9762702D7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +91,25 @@
 				8B6CEB0020AD701100038231 /* Assets.xcassets */,
 				8B6CEB0220AD701100038231 /* LaunchScreen.storyboard */,
 				8B6CEB0520AD701100038231 /* Info.plist */,
+				8B2B9CB120AEDE1100E7D11B /* TotsViewController.swift */,
+				8B2B9CB320AEE7F100E7D11B /* SignUpViewController.swift */,
+				8B3336F720AF10620089CB60 /* TotTableViewCell.swift */,
+				8B3336FB20AF1DE10089CB60 /* Message.swift */,
+				8B3336FD20AF1E840089CB60 /* User.swift */,
+				8B3336FF20AF20EC0089CB60 /* Header.swift */,
+				8B816F5420C5D47200ABA741 /* ProfileViewController.swift */,
+				8B816F5620C5E98D00ABA741 /* SendTotViewController.swift */,
 			);
 			path = TotterIos;
+			sourceTree = "<group>";
+		};
+		D66A36357E0D9D5B76EB25CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3FDFB1978AB0F6BF504E182 /* Pods-TotterIos.debug.xcconfig */,
+				382256AF5AC50CF32EFBDD8F /* Pods-TotterIos.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B6CEB0820AD701100038231 /* Build configuration list for PBXNativeTarget "TotterIos" */;
 			buildPhases = (
+				794C98DCCAD48A28BDB7DCC0 /* [CP] Check Pods Manifest.lock */,
 				8B6CEAF220AD701100038231 /* Sources */,
 				8B6CEAF320AD701100038231 /* Frameworks */,
 				8B6CEAF420AD701100038231 /* Resources */,
+				DCCBFBC5A27C82A4FA4CE1C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,13 +181,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		794C98DCCAD48A28BDB7DCC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TotterIos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCCBFBC5A27C82A4FA4CE1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TotterIos/Pods-TotterIos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotterIos/Pods-TotterIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B6CEAF220AD701100038231 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B816F5720C5E98D00ABA741 /* SendTotViewController.swift in Sources */,
+				8B33370020AF20EC0089CB60 /* Header.swift in Sources */,
 				8B6CEAFC20AD701100038231 /* ViewController.swift in Sources */,
+				8B2B9CB220AEDE1100E7D11B /* TotsViewController.swift in Sources */,
+				8B3336F820AF10620089CB60 /* TotTableViewCell.swift in Sources */,
+				8B3336FC20AF1DE10089CB60 /* Message.swift in Sources */,
+				8B2B9CB420AEE7F100E7D11B /* SignUpViewController.swift in Sources */,
+				8B816F5520C5D47200ABA741 /* ProfileViewController.swift in Sources */,
 				8B6CEAFA20AD701100038231 /* AppDelegate.swift in Sources */,
+				8B3336FE20AF1E840089CB60 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +373,7 @@
 		};
 		8B6CEB0920AD701100038231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FDFB1978AB0F6BF504E182 /* Pods-TotterIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +388,7 @@
 		};
 		8B6CEB0A20AD701100038231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382256AF5AC50CF32EFBDD8F /* Pods-TotterIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

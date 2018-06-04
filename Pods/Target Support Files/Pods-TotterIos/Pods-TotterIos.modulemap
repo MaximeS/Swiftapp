@@ -1,0 +1,6 @@
+framework module Pods_TotterIos {
+  umbrella header "Pods-TotterIos-umbrella.h"
+
+  export *
+  module * { export * }
+}
